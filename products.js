@@ -1,7 +1,7 @@
 
 const products =[{
   id: 'product-name-1',
-  image: 'pics/bioderma.png',
+  image: 'bioderma.png',
   name: 'Bioderma Micellar Water',
   category: 'micellar',
   rating: { 
@@ -12,7 +12,7 @@ const products =[{
   priceCents: 1000
 },{
   id:'product-name-2',
-  image: 'pics/ordinary.png',
+  image: 'ordinary.png',
   name: 'Ordinary Glycolic Acid 7%',
   category: 'acids',
   rating: {
@@ -22,7 +22,7 @@ const products =[{
   priceCents: 600
 }, {
   id: 'product-name-3',
-  image: 'pics/cerave.png',
+  image: 'cerave.png',
   name:' CeraVe cleanser',
   category: 'cleanser',
   rating: {
@@ -32,7 +32,7 @@ const products =[{
   priceCents: 2000
 },{
   id:'product-name-3',
-  image:'pics/ordinary.webp',
+  image:'ordinary.webp',
   name: 'Ordinary Cleanser',
   category: 'cleanser',
   rating: {
