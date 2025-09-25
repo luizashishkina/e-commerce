@@ -45,11 +45,11 @@ let productsHTML='';
 products.forEach((product)=>{
   productsHTML += `
   <div class="product ${product.category}">  
-<img src = "${product.image}" class="product-img">
+<img src = "${product.image} alt="product picture" class="product-img">
 ${product.name}
 <div class="price"> $${(product.priceCents/100).toFixed(2)}</div>
 <div class="product-rating">
-   <img src= "pics/rating-${Math.round(product.rating.stars *10)}.png" class="rating-image" > <p>(${product.rating.count})</p>
+   <img src= "pics/rating-${Math.round(product.rating.stars *10)}.png" class="rating-image" alt=product raiting > <p>(${product.rating.count})</p>
    </div>
    <div>
   <label for="quantity">Quantity:</label>
