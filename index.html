@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title> Shopify</title>
+<link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+  <div class="header">
+   <h1> SkinMuse</h1>
+    </div>
+      
+ <div class=" top-buttons">
+    <p class="logo"> SkinMuse</p>
+    <input type="textbox" placeholder=" Search product" class="search-bar">
+    
+ 
+  <a href="profile.html" class="my-profile">My profile</a>
+ <a href="cart.html" class="cart-link"> 
+  <div class= "cart-text">My Cart</div></a>
+ <div class="cart-button js-cartquantity" > </div> 
+</div>
+  
+ </a>
+
+
+</div>
+<button onclick="toggleCategories()" class="catbutton">☰</button>
+
+
+
+  <div class="container">
+    <div class="categories">
+<div id="category-list" class="hidden category-list">
+<button onclick ="filterProducts('all')" class="catagory-button">All</button>
+<button onclick =" filterProducts('cleanser')" class="catagory-button">Cleansers</button>
+<button onclick =" filterProducts('micellar')"class="catagory-button"> Micellar Water</button>
+<button onclick ="filterProducts('acids')" class="catagory-button">Serums and Acids</button>
+<div class="nav-bar"> 
+<button class="nav-bar"> Terms & Conditions</button>
+<button class="nav-bar"> Returns</button>
+<button class="nav-bar"> Delivery</button>
+  </div>
+  </div>
+  </div>
+  <div class="product-list js-product"></div>
+  
+
+
+
+
+</body>
+<script src="categories.js"></script>
+<script src="products.js"></script> 
+<script src="cart.js"></script>
+
+
+
+
+</html>
